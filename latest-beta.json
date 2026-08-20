@@ -1,22 +1,22 @@
 {
     "schema_version":  1,
     "channel":  "beta",
-    "version_name":  "0.1.0-beta",
-    "version_code":  1,
+    "version_name":  "0.1.1-beta",
+    "version_code":  2,
     "minimum_sdk":  23,
-    "published_at":  "2026-08-20T12:01:48Z",
-    "release_notes":  "iTV Beta-Release",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.0-beta",
+    "published_at":  "2026-08-20T15:35:34Z",
+    "release_notes":  "Themefaehiger Update-Dialog mit Download-Fortschritt, Geschwindigkeit, Dateigroesse und SHA-256-Pruefstatus.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.1-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.0-beta/iTV-v0.1.0-beta-armeabi-v7a.apk",
-                                          "sha256":  "cc6688e33573a7ed341f1efde70d4101b07011e842c30bd9574543e8492f5c80",
-                                          "size_bytes":  21417956
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.1-beta/iTV-v0.1.1-beta-armeabi-v7a.apk",
+                                          "sha256":  "061dcb71a89d09f39e4dfc4b81bc62d4f388bb91db2338d3b6e4b00b215acba6",
+                                          "size_bytes":  21434343
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.0-beta/iTV-v0.1.0-beta-arm64-v8a.apk",
-                                        "sha256":  "480d849066a83bb9dfbbdf66ee64521ea4265ec7d1a136d1de397d6183d22a42",
-                                        "size_bytes":  21975612
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.1-beta/iTV-v0.1.1-beta-arm64-v8a.apk",
+                                        "sha256":  "5367a5039f193c30e65698077744e0c812f2148951e833a97ca17d69fd1d445d",
+                                        "size_bytes":  21991979
                                     }
                   }
 }
