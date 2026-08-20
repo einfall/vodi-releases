@@ -5,7 +5,7 @@
     "version_code":  1,
     "minimum_sdk":  23,
     "published_at":  "2026-08-20T12:01:48Z",
-    "release_notes":  "Erstes Ã¶ffentliches iTV Beta-Release mit integriertem Update-Check.",
+    "release_notes":  "iTV Beta-Release",
     "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.0-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
