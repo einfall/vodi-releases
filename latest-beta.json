@@ -1,0 +1,22 @@
+{
+    "schema_version":  1,
+    "channel":  "beta",
+    "version_name":  "0.1.0-beta",
+    "version_code":  1,
+    "minimum_sdk":  23,
+    "published_at":  "2026-08-20T12:01:48Z",
+    "release_notes":  "Updater-Testmanifest",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.0-beta",
+    "artifacts":  {
+                      "armeabi-v7a":  {
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.0-beta/iTV-v0.1.0-beta-armeabi-v7a.apk",
+                                          "sha256":  "cc6688e33573a7ed341f1efde70d4101b07011e842c30bd9574543e8492f5c80",
+                                          "size_bytes":  21417956
+                                      },
+                      "arm64-v8a":  {
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.0-beta/iTV-v0.1.0-beta-arm64-v8a.apk",
+                                        "sha256":  "480d849066a83bb9dfbbdf66ee64521ea4265ec7d1a136d1de397d6183d22a42",
+                                        "size_bytes":  21975612
+                                    }
+                  }
+}
