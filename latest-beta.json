@@ -1,22 +1,22 @@
 {
     "schema_version":  1,
     "channel":  "beta",
-    "version_name":  "0.1.2-beta",
-    "version_code":  3,
+    "version_name":  "0.1.3-beta",
+    "version_code":  4,
     "minimum_sdk":  23,
-    "published_at":  "2026-08-23T10:37:27Z",
-    "release_notes":  "Neue Topbar-Designs und Anpassungen, intelligenter Bild-Cache, Serien-Episoden-Updates, App-Updater sowie Ã¼berarbeitete Film-Detailreihen.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.2-beta",
+    "published_at":  "2026-08-23T16:02:25Z",
+    "release_notes":  "JSON-basierte Sprachkataloge, Deutsch/Englisch-Umschaltung, korrekte Umlaute und erweiterbare Lokalisierung.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.3-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.2-beta/iTV-v0.1.2-beta-armeabi-v7a.apk",
-                                          "sha256":  "fcdbe41d398ef687f16e6be65ef79f76110771073182a5e27c9ef709d8ec97e1",
-                                          "size_bytes":  22862938
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.3-beta/iTV-v0.1.3-beta-armeabi-v7a.apk",
+                                          "sha256":  "a47e11440657bedd54e0a5d04cc997da59a0760a9d2c303907f638ac32de0998",
+                                          "size_bytes":  22886010
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.2-beta/iTV-v0.1.2-beta-arm64-v8a.apk",
-                                        "sha256":  "3a84f2a13fb2c2620538bb6cbda03f977a5fb2c3cf00a834f0890809b4625475",
-                                        "size_bytes":  23420594
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.3-beta/iTV-v0.1.3-beta-arm64-v8a.apk",
+                                        "sha256":  "2069b5a903360f1dd4b4ee16f960abc062fe7d7f8be0076a5fea255363388cd2",
+                                        "size_bytes":  23443668
                                     }
                   }
 }
