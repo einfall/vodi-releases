@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.9-beta",
-    "version_code":  10,
+    "version_name":  "0.1.10-beta",
+    "version_code":  11,
     "minimum_sdk":  23,
-    "published_at":  "2026-08-31T18:08:26Z",
-    "release_notes":  "Live- und VOD-Wiedergabe wird nach Home zuverlässig neu verbunden. VOD und Catch-up setzen an der gespeicherten Position fort; Android-TV-Launcher verwenden wieder die bestehende App-Sitzung.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.9-beta",
+    "published_at":  "2026-09-02T12:34:56Z",
+    "release_notes":  "Neu: optionaler Movie-Post-Play-Screen ab einstellbarem Schwellenwert. Bis zu neun lokal verfügbare Empfehlungen im TiviMate-Stil mit Metadaten, Besetzung und Regie. Empfehlungen lassen sich direkt aus dem Post-Play-Screen starten.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.10-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.9-beta/iTV-v0.1.9-beta-armeabi-v7a.apk",
-                                          "sha256":  "9eea871a24177d3c054f27c204a80ab9300da22d49b7124fd47bbc55461a214f",
-                                          "size_bytes":  23117710
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.10-beta/iTV-v0.1.10-beta-armeabi-v7a.apk",
+                                          "sha256":  "8675ea51aaf8623e8de802df243abdb6becadb93dd217fb249e6224adef8e2f0",
+                                          "size_bytes":  23150468
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.9-beta/iTV-v0.1.9-beta-arm64-v8a.apk",
-                                        "sha256":  "bb497777f346ccea74d36f1161b1c26577fe0d382980a0a7f6b48b61b38b82b1",
-                                        "size_bytes":  23675357
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.10-beta/iTV-v0.1.10-beta-arm64-v8a.apk",
+                                        "sha256":  "bfe5f61f9e9b2d2ca6a3caab2d24620c927002fe7a35d6e4d034ae722132d382",
+                                        "size_bytes":  23708124
                                     }
                   }
 }
