@@ -1,23 +1,23 @@
 {
-    "schema_version":  1,
-    "channel":  "beta",
-    "package_name":  "com.welove.itv",
-    "version_name":  "0.1.10-beta",
-    "version_code":  11,
-    "minimum_sdk":  23,
-    "published_at":  "2026-09-02T12:34:56Z",
-    "release_notes":  "Neu: optionaler Movie-Post-Play-Screen ab einstellbarem Schwellenwert. Bis zu neun lokal verfügbare Empfehlungen im TiviMate-Stil mit Metadaten, Besetzung und Regie. Empfehlungen lassen sich direkt aus dem Post-Play-Screen starten.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.10-beta",
-    "artifacts":  {
-                      "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.10-beta/iTV-v0.1.10-beta-armeabi-v7a.apk",
-                                          "sha256":  "8675ea51aaf8623e8de802df243abdb6becadb93dd217fb249e6224adef8e2f0",
-                                          "size_bytes":  23150468
-                                      },
-                      "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.10-beta/iTV-v0.1.10-beta-arm64-v8a.apk",
-                                        "sha256":  "bfe5f61f9e9b2d2ca6a3caab2d24620c927002fe7a35d6e4d034ae722132d382",
-                                        "size_bytes":  23708124
-                                    }
-                  }
+  "schema_version": 1,
+  "channel": "beta",
+  "package_name": "com.welove.itv",
+  "version_name": "0.1.11-beta",
+  "version_code": 12,
+  "minimum_sdk": 23,
+  "published_at": "2026-09-02T17:28:14Z",
+  "release_notes": "Neu: Seekr.tv Android SDK mit sicherer profilbezogener API-Key-Speicherung. Normales Einzelbild- und Netflix-Theme mit fünf Vorschaubildern. Cue-genaue, mit OK bestätigte Seek-Sprünge sowie passende Bildabstände für Links/Rechts und Hoch/Runter. Zusätzlich wurde der Seekr-Aktivierungsschalter korrigiert.",
+  "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.11-beta",
+  "artifacts": {
+    "armeabi-v7a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.11-beta/iTV-v0.1.11-beta-armeabi-v7a.apk",
+      "sha256": "c701563fca0ab821268b57b249a699c4181173f65fe0ea141049be928386ff24",
+      "size_bytes": 23297923
+    },
+    "arm64-v8a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.11-beta/iTV-v0.1.11-beta-arm64-v8a.apk",
+      "sha256": "81381a403f3044556a216d0033db6b21094ff8a128bfae372c86a09aaa87986d",
+      "size_bytes": 23855576
+    }
+  }
 }
