@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.23-beta",
-    "version_code":  24,
+    "version_name":  "0.1.24-beta",
+    "version_code":  25,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-17T17:28:44Z",
-    "release_notes":  "Optionaler Coverfarben-Glow fuer fokussierte Poster, Backdrops und Episodenkarten; bestehender Focus-Frame bleibt unabhaengig konfigurierbar. Dominantfarben werden nur fuer die fokussierte Karte geladen und speicherschonend zwischengespeichert.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.23-beta",
+    "published_at":  "2026-09-17T20:00:40Z",
+    "release_notes":  "Korrigiert Episoden- und Serienstatus bei MDBList, Simkl und Trakt. Ergänzt einen sicheren lokalen Filme-/Serien-Reset und übernimmt die Wohnzimmer-Konfiguration als Neuinstallations-Standard; externe Dienste bleiben standardmäßig deaktiviert.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.24-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.23-beta/iTV-v0.1.23-beta-armeabi-v7a.apk",
-                                          "sha256":  "42a456aca4f8bd11088edc8595c454180efc7177067ce1a30985a95f43ad0514",
-                                          "size_bytes":  23891536
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.24-beta/iTV-v0.1.24-beta-armeabi-v7a.apk",
+                                          "sha256":  "8edda3e72b9f38aba3ca7331752c105f88795c86b8042c589332f79c0c9b0900",
+                                          "size_bytes":  23907916
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.23-beta/iTV-v0.1.23-beta-arm64-v8a.apk",
-                                        "sha256":  "f0692636198c74cc35213a217060ab06d0e8549e72d609e064f81eedb3cf7bc5",
-                                        "size_bytes":  24449196
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.24-beta/iTV-v0.1.24-beta-arm64-v8a.apk",
+                                        "sha256":  "497a5c5efcf78ca463534198816217c4ede269074d568e162bca118284b338f6",
+                                        "size_bytes":  24465576
                                     }
                   }
 }
