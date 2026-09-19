@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.27-beta",
-    "version_code":  28,
+    "version_name":  "0.1.28-beta",
+    "version_code":  29,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-18T17:54:23Z",
-    "release_notes":  "Sync-Provider steht in der linken Einstellungsnavigation jetzt direkt unter Sync. Die Auswahl einzelner Upload-Ziele und Download-Quellen bleibt nach dem Speichern korrekt erhalten; der Sammelschalter Alle aktiviert sich nur bei einer vollständigen Auswahl. Smart Sync und Immer voll werden weiterhin direkt in den Provider-Einstellungen erklärt.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.27-beta",
+    "published_at":  "2026-09-19T09:50:18Z",
+    "release_notes":  "Neu strukturiertes Webinterface mit Themen-Tabs, Suche und erweiterten Einstellungen. Unabhaengige Upload- und Download-Auswahl fuer Trakt, SIMKL und MDBList. Fehlgeschlagene Sync-Jobs mit begrenzten Wiederholungen sowie Erneut versuchen und Verwerfen. Verbesserter Schutz lokaler Watched- und Resume-Aenderungen, zusaetzliche Provider-Tests und interne Strukturverbesserungen.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.28-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.27-beta/iTV-v0.1.27-beta-armeabi-v7a.apk",
-                                          "sha256":  "f43297c3f87c2628c439544d3f8373648583f6947def122f2b1820b99e5f8f84",
-                                          "size_bytes":  23940688
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.28-beta/iTV-v0.1.28-beta-armeabi-v7a.apk",
+                                          "sha256":  "1e33031751446328f9c5b76e53f8f9bc9ed591185f47c7de27a1d497a51bbbae",
+                                          "size_bytes":  23984236
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.27-beta/iTV-v0.1.27-beta-arm64-v8a.apk",
-                                        "sha256":  "49d7c81c319809e81300ff76ed0a0ee4f518eee4413aa2bc7290e92fd353b28f",
-                                        "size_bytes":  24498348
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.28-beta/iTV-v0.1.28-beta-arm64-v8a.apk",
+                                        "sha256":  "c6be3ccf7ee7fb1de5874dd64b9232e715c1807bc57cf97b3348683283f81c1c",
+                                        "size_bytes":  24541896
                                     }
                   }
 }
