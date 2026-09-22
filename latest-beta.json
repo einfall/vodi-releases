@@ -2,21 +2,21 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.29-beta",
-    "version_code":  30,
+    "version_name":  "0.1.30-beta",
+    "version_code":  31,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-22T16:49:51Z",
-    "release_notes":  "# iTV 0.1.29-beta\n\n- SIMKL-Anmeldung auf OAuth v2 umgestellt, einschließlich automatischer Token-Erneuerung und verschlüsselter Speicherung der Zugangsdaten. Bestehende SIMKL-Verbindungen müssen gegebenenfalls neu verbunden werden.\n- Offizielle SIMKL-Listen eingebunden; eigene und abonnierte Filmlisten können auf der Startseite verwendet werden. Die Verfügbarkeit richtet sich nach dem SIMKL-Konto.\n- Sync-Provider übersichtlicher gegliedert: Verbindung, Automatik, manuelle Übertragung und Status haben eigene Unterbereiche.\n- Manuelle Übertragung in beide Richtungen für SIMKL, Trakt und MDBList mit Bestätigungsdialog. Der lokale Upload ergänzt vorhandene Zustände; entfernte Einträge werden dabei nicht pauschal gelöscht.\n- API-Schlüssel erscheinen in der Liste gekürzt und im Bearbeitungsdialog vollständig.\n- Änderungsmeldungen erscheinen nur, wenn der Abgleich tatsächlich den lokalen Gesehen-, Fortschritts-, Favoriten- oder Bookmark-Stand verändert. Eigene zurückgelieferte Änderungen bleiben ohne Meldung.\n- SIMKL setzt angefangene Serien nicht mehr automatisch als Bookmark. Nur „Plan to watch“ wird als Bookmark übernommen. Bereits falsch abgeleitete SIMKL-Bookmarks werden beim ersten vollständigen Abgleich bereinigt; diese Bereinigung kann einmalig eine Änderungsmeldung auslösen.\n- Das Episodenmenü nach langem OK-Druck zeigt abhängig vom aktuellen Zustand genau eine Aktion: „Als gesehen markieren“ oder „Als ungesehen markieren“.\n- Zusätzliche Regressionstests für SIMKL, Trakt und MDBList sichern Episoden-Rückimporte, echte Watchlist-Änderungen und Änderungsmeldungen ab.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.29-beta",
+    "published_at":  "2026-09-22T19:23:46Z",
+    "release_notes":  "# iTV 0.1.30-beta\n\n- SIMKL-Filmlisten werden unter Home → Lists wieder angezeigt. Der Listenfilter erkennt jetzt den von der API gelieferten Medientyp `movies`.\n- Durch erneutes Auswählen von Lists oder Lists Bookmarks im Home-Seitenmenü wird die Listenübersicht neu geladen. Neu gefolgte Listen können so ohne App-Neustart erscheinen.\n- Bei einer leeren SIMKL-Listenansicht wird der Lade- oder Fehlerstatus angezeigt, etwa bei fehlender Anmeldung oder fehlendem Listen-Zugang.\n- Regressionstests sichern die API-Antwort für Filmlisten und das erneute Laden über die Navigation ab.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.30-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.29-beta/iTV-v0.1.29-beta-armeabi-v7a.apk",
-                                          "sha256":  "2e4cd5fc01ac525d3cc855197503bd2714946fc5278c33b05a544aa9c786d1d6",
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.30-beta/iTV-v0.1.30-beta-armeabi-v7a.apk",
+                                          "sha256":  "8eb1185f39aa0be6820072b0eb3db7d6f71d9c32a896f5afd10a53cdddb67e24",
                                           "size_bytes":  24033452
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.29-beta/iTV-v0.1.29-beta-arm64-v8a.apk",
-                                        "sha256":  "2dca684d0dbb565fbe6ec1eab7e9e76ce963d6e06b2e15ae520b0b7a83e82973",
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.30-beta/iTV-v0.1.30-beta-arm64-v8a.apk",
+                                        "sha256":  "c64175dc771bca5d012cffa4214d3f800ac9d45b49df0c61bd3bff927017786b",
                                         "size_bytes":  24591112
                                     }
                   }
