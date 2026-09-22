@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.28-beta",
-    "version_code":  29,
+    "version_name":  "0.1.29-beta",
+    "version_code":  30,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-19T09:50:18Z",
-    "release_notes":  "Neu strukturiertes Webinterface mit Themen-Tabs, Suche und erweiterten Einstellungen. Unabhaengige Upload- und Download-Auswahl fuer Trakt, SIMKL und MDBList. Fehlgeschlagene Sync-Jobs mit begrenzten Wiederholungen sowie Erneut versuchen und Verwerfen. Verbesserter Schutz lokaler Watched- und Resume-Aenderungen, zusaetzliche Provider-Tests und interne Strukturverbesserungen.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.28-beta",
+    "published_at":  "2026-09-22T16:49:51Z",
+    "release_notes":  "# iTV 0.1.29-beta\n\n- SIMKL-Anmeldung auf OAuth v2 umgestellt, einschließlich automatischer Token-Erneuerung und verschlüsselter Speicherung der Zugangsdaten. Bestehende SIMKL-Verbindungen müssen gegebenenfalls neu verbunden werden.\n- Offizielle SIMKL-Listen eingebunden; eigene und abonnierte Filmlisten können auf der Startseite verwendet werden. Die Verfügbarkeit richtet sich nach dem SIMKL-Konto.\n- Sync-Provider übersichtlicher gegliedert: Verbindung, Automatik, manuelle Übertragung und Status haben eigene Unterbereiche.\n- Manuelle Übertragung in beide Richtungen für SIMKL, Trakt und MDBList mit Bestätigungsdialog. Der lokale Upload ergänzt vorhandene Zustände; entfernte Einträge werden dabei nicht pauschal gelöscht.\n- API-Schlüssel erscheinen in der Liste gekürzt und im Bearbeitungsdialog vollständig.\n- Änderungsmeldungen erscheinen nur, wenn der Abgleich tatsächlich den lokalen Gesehen-, Fortschritts-, Favoriten- oder Bookmark-Stand verändert. Eigene zurückgelieferte Änderungen bleiben ohne Meldung.\n- SIMKL setzt angefangene Serien nicht mehr automatisch als Bookmark. Nur „Plan to watch“ wird als Bookmark übernommen. Bereits falsch abgeleitete SIMKL-Bookmarks werden beim ersten vollständigen Abgleich bereinigt; diese Bereinigung kann einmalig eine Änderungsmeldung auslösen.\n- Das Episodenmenü nach langem OK-Druck zeigt abhängig vom aktuellen Zustand genau eine Aktion: „Als gesehen markieren“ oder „Als ungesehen markieren“.\n- Zusätzliche Regressionstests für SIMKL, Trakt und MDBList sichern Episoden-Rückimporte, echte Watchlist-Änderungen und Änderungsmeldungen ab.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.29-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.28-beta/iTV-v0.1.28-beta-armeabi-v7a.apk",
-                                          "sha256":  "1e33031751446328f9c5b76e53f8f9bc9ed591185f47c7de27a1d497a51bbbae",
-                                          "size_bytes":  23984236
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.29-beta/iTV-v0.1.29-beta-armeabi-v7a.apk",
+                                          "sha256":  "2e4cd5fc01ac525d3cc855197503bd2714946fc5278c33b05a544aa9c786d1d6",
+                                          "size_bytes":  24033452
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.28-beta/iTV-v0.1.28-beta-arm64-v8a.apk",
-                                        "sha256":  "c6be3ccf7ee7fb1de5874dd64b9232e715c1807bc57cf97b3348683283f81c1c",
-                                        "size_bytes":  24541896
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.29-beta/iTV-v0.1.29-beta-arm64-v8a.apk",
+                                        "sha256":  "2dca684d0dbb565fbe6ec1eab7e9e76ce963d6e06b2e15ae520b0b7a83e82973",
+                                        "size_bytes":  24591112
                                     }
                   }
 }
