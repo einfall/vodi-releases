@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.30-beta",
-    "version_code":  31,
+    "version_name":  "0.1.31-beta",
+    "version_code":  32,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-22T19:23:46Z",
-    "release_notes":  "# iTV 0.1.30-beta\n\n- SIMKL-Filmlisten werden unter Home → Lists wieder angezeigt. Der Listenfilter erkennt jetzt den von der API gelieferten Medientyp `movies`.\n- Durch erneutes Auswählen von Lists oder Lists Bookmarks im Home-Seitenmenü wird die Listenübersicht neu geladen. Neu gefolgte Listen können so ohne App-Neustart erscheinen.\n- Bei einer leeren SIMKL-Listenansicht wird der Lade- oder Fehlerstatus angezeigt, etwa bei fehlender Anmeldung oder fehlendem Listen-Zugang.\n- Regressionstests sichern die API-Antwort für Filmlisten und das erneute Laden über die Navigation ab.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.30-beta",
+    "published_at":  "2026-09-27T19:20:45Z",
+    "release_notes":  "# iTV 0.1.31-beta\n\n- Neue zusätzliche Film-Detailansicht „List Detail“ mit großem Poster, Filmlogo, unseren Meta-Pills, Beschreibung, Regie, Studio, Laufzeit und Cast-Leiste. Auswählbar unter Optionen → Film Detail Ansicht → List Detail.\n- Neue Serienansicht „List Detail“ mit kompakten Staffelboxen, sieben sichtbaren Episoden, dezenter Auswahlmarkierung, Episodenbild im 16:9-Format und bis zu vier Beschreibungszeilen.\n- Staffel-Punkte zeigen den Episodenstatus: Grau für ungestartet, Gelb für begonnen und Grün für gesehen.\n- TMDB-Episodenratings werden zusammen mit den Staffel-Metadaten geladen und lokal gespeichert. Bestehende Episoden erhalten die Bewertungen beim nächsten Metadatenabruf.\n- Größere Seriencover, feste Metadatenzeilen und dezente Backdrops. In der Filmansicht stehen Genre und Laufzeit in einer Pill-Reihe; die Überschriften von Cast, ähnlichen Filmen und Empfehlungen haben einen transparenten Hintergrund.\n- Die Film-Detailansicht bleibt beim Wechsel der Browse-Ansicht gespeichert. Bestehende Film-Aktionen, Cast-Navigation und Anzeigeeinstellungen werden weiterverwendet.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.31-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.30-beta/iTV-v0.1.30-beta-armeabi-v7a.apk",
-                                          "sha256":  "8eb1185f39aa0be6820072b0eb3db7d6f71d9c32a896f5afd10a53cdddb67e24",
-                                          "size_bytes":  24033452
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.31-beta/iTV-v0.1.31-beta-armeabi-v7a.apk",
+                                          "sha256":  "eddc2aadc693cf477613d6bf08629a5f8cae59ac8c93b4489f8c7c511f43278b",
+                                          "size_bytes":  24098988
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.30-beta/iTV-v0.1.30-beta-arm64-v8a.apk",
-                                        "sha256":  "c64175dc771bca5d012cffa4214d3f800ac9d45b49df0c61bd3bff927017786b",
-                                        "size_bytes":  24591112
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.31-beta/iTV-v0.1.31-beta-arm64-v8a.apk",
+                                        "sha256":  "ee2e255f421e884d1e82f5036950ed6bdb930f1b49220811ec1a611a6f87ccbb",
+                                        "size_bytes":  24656648
                                     }
                   }
 }
