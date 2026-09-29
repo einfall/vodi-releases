@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.31-beta",
-    "version_code":  32,
+    "version_name":  "0.1.32-beta",
+    "version_code":  33,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-27T19:20:45Z",
-    "release_notes":  "# iTV 0.1.31-beta\n\n- Neue zusätzliche Film-Detailansicht „List Detail“ mit großem Poster, Filmlogo, unseren Meta-Pills, Beschreibung, Regie, Studio, Laufzeit und Cast-Leiste. Auswählbar unter Optionen → Film Detail Ansicht → List Detail.\n- Neue Serienansicht „List Detail“ mit kompakten Staffelboxen, sieben sichtbaren Episoden, dezenter Auswahlmarkierung, Episodenbild im 16:9-Format und bis zu vier Beschreibungszeilen.\n- Staffel-Punkte zeigen den Episodenstatus: Grau für ungestartet, Gelb für begonnen und Grün für gesehen.\n- TMDB-Episodenratings werden zusammen mit den Staffel-Metadaten geladen und lokal gespeichert. Bestehende Episoden erhalten die Bewertungen beim nächsten Metadatenabruf.\n- Größere Seriencover, feste Metadatenzeilen und dezente Backdrops. In der Filmansicht stehen Genre und Laufzeit in einer Pill-Reihe; die Überschriften von Cast, ähnlichen Filmen und Empfehlungen haben einen transparenten Hintergrund.\n- Die Film-Detailansicht bleibt beim Wechsel der Browse-Ansicht gespeichert. Bestehende Film-Aktionen, Cast-Navigation und Anzeigeeinstellungen werden weiterverwendet.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.31-beta",
+    "published_at":  "2026-09-29T19:40:24Z",
+    "release_notes":  "# iTV 0.1.32-beta\n\n- Serien „List Detail“: Logo über den Meta-Pills, Genre direkt neben dem Jahr und mehr Platz für das Cover.\n- Favourite, Bookmark und Gesehen sind als kompakte Symbolbuttons rund 40 % kleiner. Die Cast-Leiste sitzt näher am unteren Bildschirmrand.\n- Live-TV: Das Cover unter dem Mini-TV ist abgerundet und ohne graue Bildränder am linken Innenrand ausgerichtet. Die Beschreibung nutzt mehr Breite und eine leicht größere Schrift; lange Texte werden erst am verfügbaren Platz gekürzt.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.32-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.31-beta/iTV-v0.1.31-beta-armeabi-v7a.apk",
-                                          "sha256":  "eddc2aadc693cf477613d6bf08629a5f8cae59ac8c93b4489f8c7c511f43278b",
-                                          "size_bytes":  24098988
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.32-beta/iTV-v0.1.32-beta-armeabi-v7a.apk",
+                                          "sha256":  "cfeeb3df642e2dcebee3e45f5e428dcece4c8b801881d45f59e907e70070e7de",
+                                          "size_bytes":  24098992
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.31-beta/iTV-v0.1.31-beta-arm64-v8a.apk",
-                                        "sha256":  "ee2e255f421e884d1e82f5036950ed6bdb930f1b49220811ec1a611a6f87ccbb",
-                                        "size_bytes":  24656648
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.32-beta/iTV-v0.1.32-beta-arm64-v8a.apk",
+                                        "sha256":  "38fdc5f206c6e2d8b1bc2cdb03a7617427903f4c5c802fdbd035449993cf455a",
+                                        "size_bytes":  24656652
                                     }
                   }
 }
