@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.33-beta",
-    "version_code":  34,
+    "version_name":  "0.1.34-beta",
+    "version_code":  35,
     "minimum_sdk":  26,
-    "published_at":  "2026-09-30T20:22:37Z",
-    "release_notes":  "# iTV 0.1.33-beta\n\n- Smart Sync für SIMKL, Trakt und MDBList gleicht zurückgenommene Gesehen-Markierungen zuverlässiger ab. Zugehörige veraltete 100%-Fortschritte werden ebenfalls entfernt.\n- Filme, Serien und Episoden, die erst nach dem Sync im lokalen Katalog verfügbar werden, erhalten ihren gespeicherten Sync-Status automatisch beim Katalog-Refresh.\n- Neuere lokale Änderungen und noch ausstehende Uploads werden beim Abgleich geschützt. Gespeicherte Sync-Daten sind an das jeweilige Konto gebunden.\n- Unvollständige oder fehlerhafte Provider-Antworten werden nicht als leerer Verlauf übernommen. Teilabgleiche erhalten den unveränderten Verlauf; entfernte Episoden werden nicht aus veralteten vorgemerkten Daten wiederhergestellt.\n- SIMKL und Trakt laden Episoden über den zur Serie gehörenden Server. Trakt prüft zusätzlich die Vollständigkeit mehrseitiger Antworten.\n\nBeim ersten Smart Sync nach dem Update wird bei Bedarf ein vollständiger Verlauf geladen. Danach können neue Katalogeinträge ihren Status aus dem gespeicherten Verlauf erhalten.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.33-beta",
+    "published_at":  "2026-10-01T14:48:25Z",
+    "release_notes":  "# iTV 0.1.34-beta\n\n- SIMKL Smart Sync lädt bei Bookmark- und anderen Statusänderungen nur die Änderungen seit dem letzten Abgleich. Leere Löschzeitstempel lösen keinen vollständigen Verlaufsabruf mehr aus.\n- Auch der anschließende lokale Abgleich berücksichtigt nur die betroffenen Filme, Serien und deren Episoden. Bereits lokal übernommene eigene Uploads erzeugen keine erneute Änderungsmeldung.\n- Ohne Änderungen endet der Startcheck nach der Aktivitätsprüfung. Neu verfügbare Katalogeinträge erhalten ihren gespeicherten SIMKL-Status gezielt lokal; noch ausstehende Zuordnungen bleiben über App-Neustarts erhalten.\n- Echte Löschungen werden zusätzlich anhand einer kompakten ID-Liste erkannt, ohne die gesamte Episodenhistorie erneut herunterzuladen.\n- Trakt und MDBList reihen keine Katalogjobs mehr allein durch einen Profilwechsel ein. Nicht ausgewählte Download-Provider erzeugen keine solchen Queue-Einträge; lokale Statuszuordnungen erhöhen den sichtbaren Sync-Zähler nicht.\n- Favoriten werden bei SIMKL nicht mehr in Bewertungen umgewandelt. Das Abschalten eines Bookmarks löst keinen „Remove from History“-Aufruf mehr aus.\n\nBekannte Einschränkungen: SIMKL-Favoriten bleiben lokal; die Custom Lists „Favorite Movies“ und „Favorite TV Shows“ lassen sich über die derzeit verfügbare API nicht bearbeiten. Das Entfernen eines Bookmarks aus SIMKL „Plan to Watch“ wird derzeit nicht übertragen; entsprechende Aufträge bleiben ausstehend.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.34-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.33-beta/iTV-v0.1.33-beta-armeabi-v7a.apk",
-                                          "sha256":  "3c112ac88b082daccb6df1930e6d898c135697e1e3f472617dc022d22f570809",
-                                          "size_bytes":  24148140
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.34-beta/iTV-v0.1.34-beta-armeabi-v7a.apk",
+                                          "sha256":  "320eef439194b96506d56cc700fc78a5451bea3e5c13e534a5fb3971db315311",
+                                          "size_bytes":  24164524
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.33-beta/iTV-v0.1.33-beta-arm64-v8a.apk",
-                                        "sha256":  "6b9eb242264cb341609735ef24492364a8442835db050d84ac9e7f78b84f6bb9",
-                                        "size_bytes":  24705800
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.34-beta/iTV-v0.1.34-beta-arm64-v8a.apk",
+                                        "sha256":  "7204a987c02a32bf8c2cae6ebd73bc29c57e8f631d056d6d4a0063dfddbc627c",
+                                        "size_bytes":  24722184
                                     }
                   }
 }
