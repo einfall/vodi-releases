@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.34-beta",
-    "version_code":  35,
+    "version_name":  "0.1.35-beta",
+    "version_code":  36,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-01T14:48:25Z",
-    "release_notes":  "# iTV 0.1.34-beta\n\n- SIMKL Smart Sync lädt bei Bookmark- und anderen Statusänderungen nur die Änderungen seit dem letzten Abgleich. Leere Löschzeitstempel lösen keinen vollständigen Verlaufsabruf mehr aus.\n- Auch der anschließende lokale Abgleich berücksichtigt nur die betroffenen Filme, Serien und deren Episoden. Bereits lokal übernommene eigene Uploads erzeugen keine erneute Änderungsmeldung.\n- Ohne Änderungen endet der Startcheck nach der Aktivitätsprüfung. Neu verfügbare Katalogeinträge erhalten ihren gespeicherten SIMKL-Status gezielt lokal; noch ausstehende Zuordnungen bleiben über App-Neustarts erhalten.\n- Echte Löschungen werden zusätzlich anhand einer kompakten ID-Liste erkannt, ohne die gesamte Episodenhistorie erneut herunterzuladen.\n- Trakt und MDBList reihen keine Katalogjobs mehr allein durch einen Profilwechsel ein. Nicht ausgewählte Download-Provider erzeugen keine solchen Queue-Einträge; lokale Statuszuordnungen erhöhen den sichtbaren Sync-Zähler nicht.\n- Favoriten werden bei SIMKL nicht mehr in Bewertungen umgewandelt. Das Abschalten eines Bookmarks löst keinen „Remove from History“-Aufruf mehr aus.\n\nBekannte Einschränkungen: SIMKL-Favoriten bleiben lokal; die Custom Lists „Favorite Movies“ und „Favorite TV Shows“ lassen sich über die derzeit verfügbare API nicht bearbeiten. Das Entfernen eines Bookmarks aus SIMKL „Plan to Watch“ wird derzeit nicht übertragen; entsprechende Aufträge bleiben ausstehend.\n\nDie Beta enthält APKs für ARMv7 und ARM64. Die bisherige Testsignatur bleibt erhalten; bestehende Einstellungen und lokale Daten bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.34-beta",
+    "published_at":  "2026-10-01T20:03:39Z",
+    "release_notes":  "Bookmark-Pills live aktualisiert; Trakt entfernt; SIMKL/MDBList, Episoden-Cache und Serien-Detailansicht korrigiert.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.35-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.34-beta/iTV-v0.1.34-beta-armeabi-v7a.apk",
-                                          "sha256":  "320eef439194b96506d56cc700fc78a5451bea3e5c13e534a5fb3971db315311",
-                                          "size_bytes":  24164524
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.35-beta/iTV-v0.1.35-beta-armeabi-v7a.apk",
+                                          "sha256":  "e1e8d9c10dd1148c0639bbbbbaaa84e7f33ed77d97c9ddcc3a284e98d3455225",
+                                          "size_bytes":  24048000
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.34-beta/iTV-v0.1.34-beta-arm64-v8a.apk",
-                                        "sha256":  "7204a987c02a32bf8c2cae6ebd73bc29c57e8f631d056d6d4a0063dfddbc627c",
-                                        "size_bytes":  24722184
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.35-beta/iTV-v0.1.35-beta-arm64-v8a.apk",
+                                        "sha256":  "5d7ecc4919481ce5a97a034f6bfaba68a3896f60415c0f1df8feac55eb9e144c",
+                                        "size_bytes":  24605660
                                     }
                   }
 }
