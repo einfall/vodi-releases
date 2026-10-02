@@ -2,21 +2,21 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.35-beta",
-    "version_code":  36,
+    "version_name":  "0.1.36-beta",
+    "version_code":  37,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-01T20:03:39Z",
-    "release_notes":  "Bookmark-Pills live aktualisiert; Trakt entfernt; SIMKL/MDBList, Episoden-Cache und Serien-Detailansicht korrigiert.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.35-beta",
+    "published_at":  "2026-10-02T15:00:37Z",
+    "release_notes":  "SIMKL-Bookmark-Entfernungen und MDBList-Episodenabgleich korrigiert; vollstaendig gesehene Serien und Sync-Zaehler verbessert.",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.36-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.35-beta/iTV-v0.1.35-beta-armeabi-v7a.apk",
-                                          "sha256":  "e1e8d9c10dd1148c0639bbbbbaaa84e7f33ed77d97c9ddcc3a284e98d3455225",
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.36-beta/iTV-v0.1.36-beta-armeabi-v7a.apk",
+                                          "sha256":  "db645a5dd536cb46d2ddfe2a8bdc8531f36a4f8203e7ade51e2f1b33ebbfe2b6",
                                           "size_bytes":  24048000
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.35-beta/iTV-v0.1.35-beta-arm64-v8a.apk",
-                                        "sha256":  "5d7ecc4919481ce5a97a034f6bfaba68a3896f60415c0f1df8feac55eb9e144c",
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.36-beta/iTV-v0.1.36-beta-arm64-v8a.apk",
+                                        "sha256":  "f27c46b0ed89f8483a71e78b3432ce0ad6747a0e630cea717594df0301229325",
                                         "size_bytes":  24605660
                                     }
                   }
