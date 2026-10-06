@@ -1,23 +1,23 @@
 {
-    "schema_version":  1,
-    "channel":  "beta",
-    "package_name":  "com.welove.itv",
-    "version_name":  "0.1.36-beta",
-    "version_code":  37,
-    "minimum_sdk":  26,
-    "published_at":  "2026-10-02T15:00:37Z",
-    "release_notes":  "SIMKL-Bookmark-Entfernungen und MDBList-Episodenabgleich korrigiert; vollstaendig gesehene Serien und Sync-Zaehler verbessert.",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.36-beta",
-    "artifacts":  {
-                      "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.36-beta/iTV-v0.1.36-beta-armeabi-v7a.apk",
-                                          "sha256":  "db645a5dd536cb46d2ddfe2a8bdc8531f36a4f8203e7ade51e2f1b33ebbfe2b6",
-                                          "size_bytes":  24048000
-                                      },
-                      "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.36-beta/iTV-v0.1.36-beta-arm64-v8a.apk",
-                                        "sha256":  "f27c46b0ed89f8483a71e78b3432ce0ad6747a0e630cea717594df0301229325",
-                                        "size_bytes":  24605660
-                                    }
-                  }
+  "schema_version": 1,
+  "channel": "beta",
+  "package_name": "com.welove.itv",
+  "version_name": "0.1.37-beta",
+  "version_code": 38,
+  "minimum_sdk": 26,
+  "published_at": "2026-10-06T16:58:12Z",
+  "release_notes": "# iTV 0.1.37-beta\n\n- Jellyfin kann unter Einstellungen > Server neben Xtream als VOD-Server angelegt werden. Filme, Serien, Episoden und Wiedergabe verwenden den ausgewählten Jellyfin-Server.\n- Jellyfin ist in den Sync-Tab und AutoSync integriert. Der zusätzliche Jellyfin-Statusabgleich unterstützt Gesehen-Status, Favoriten und Wiedergabefortschritt. SIMKL und MDBList ordnen Jellyfin-Inhalte über die TMDB-ID zu.\n- Film und Serien merken sich Server und Kategorie getrennt. Ein Wechsel startet den Abgleich der ausgewählten Bibliothek; ein Serverwechsel setzt die Auswahl nicht mehr versehentlich auf „Alle“ zurück.\n- HTTPS-Serveradressen erhalten automatisch Port 443. Explizit eingegebene Ports und Jellyfin-Adressen mit Unterverzeichnis bleiben erhalten.\n- Fortschrittsanzeigen für Filme und Serien berücksichtigen den gespeicherten Wiedergabe- beziehungsweise Episodenfortschritt. SIMKL unterstützt außerdem Staffel 0 für Specials.\n- Datenbankmigration auf Version 141 mit stabiler Zuordnung der Jellyfin-Inhalte und gespeicherten Synchronisationsständen.\n\nIm Emulator mit einem echten Jellyfin-Konto geprüft: 2.523 Filme, 233 Serien und 4.546 Episoden, Bibliothekswechsel ohne Neustart, getrennt gespeicherte Server-/Kategorieauswahl und erneuter Episodenabruf nach einem Netzwerkausfall. Der Filmabruf wurde zusätzlich auf dem Wohnzimmer-TV geprüft.\n\nJellyfin-Wiedergabe verwendet Direct Play; eine automatische Transcoding-Aushandlung ist noch nicht enthalten. Bestehende Einschränkungen bei SIMKL-Favoriten und dem Entfernen von Bookmarks mit vorhandenem Fortschritt gelten weiterhin.\n",
+  "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.37-beta",
+  "artifacts": {
+    "armeabi-v7a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.37-beta/iTV-v0.1.37-beta-armeabi-v7a.apk",
+      "sha256": "289b0488049d6b91c13870d2aa59de4aec319f78754fa483852e5f9b2044d7d4",
+      "size_bytes": 24113536
+    },
+    "arm64-v8a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.37-beta/iTV-v0.1.37-beta-arm64-v8a.apk",
+      "sha256": "4d16e75c7eb4e640436ae0b7231e036bbc49565fd764765bc34179dd04fb06c7",
+      "size_bytes": 24671196
+    }
+  }
 }
