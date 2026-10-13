@@ -1,23 +1,23 @@
 {
-  "schema_version": 1,
-  "channel": "beta",
-  "package_name": "com.welove.itv",
-  "version_name": "0.1.37-beta",
-  "version_code": 38,
-  "minimum_sdk": 26,
-  "published_at": "2026-10-06T16:58:12Z",
-  "release_notes": "# iTV 0.1.37-beta\n\n- Jellyfin kann unter Einstellungen > Server neben Xtream als VOD-Server angelegt werden. Filme, Serien, Episoden und Wiedergabe verwenden den ausgewählten Jellyfin-Server.\n- Jellyfin ist in den Sync-Tab und AutoSync integriert. Der zusätzliche Jellyfin-Statusabgleich unterstützt Gesehen-Status, Favoriten und Wiedergabefortschritt. SIMKL und MDBList ordnen Jellyfin-Inhalte über die TMDB-ID zu.\n- Film und Serien merken sich Server und Kategorie getrennt. Ein Wechsel startet den Abgleich der ausgewählten Bibliothek; ein Serverwechsel setzt die Auswahl nicht mehr versehentlich auf „Alle“ zurück.\n- HTTPS-Serveradressen erhalten automatisch Port 443. Explizit eingegebene Ports und Jellyfin-Adressen mit Unterverzeichnis bleiben erhalten.\n- Fortschrittsanzeigen für Filme und Serien berücksichtigen den gespeicherten Wiedergabe- beziehungsweise Episodenfortschritt. SIMKL unterstützt außerdem Staffel 0 für Specials.\n- Datenbankmigration auf Version 141 mit stabiler Zuordnung der Jellyfin-Inhalte und gespeicherten Synchronisationsständen.\n\nIm Emulator mit einem echten Jellyfin-Konto geprüft: 2.523 Filme, 233 Serien und 4.546 Episoden, Bibliothekswechsel ohne Neustart, getrennt gespeicherte Server-/Kategorieauswahl und erneuter Episodenabruf nach einem Netzwerkausfall. Der Filmabruf wurde zusätzlich auf dem Wohnzimmer-TV geprüft.\n\nJellyfin-Wiedergabe verwendet Direct Play; eine automatische Transcoding-Aushandlung ist noch nicht enthalten. Bestehende Einschränkungen bei SIMKL-Favoriten und dem Entfernen von Bookmarks mit vorhandenem Fortschritt gelten weiterhin.\n",
-  "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.37-beta",
-  "artifacts": {
-    "armeabi-v7a": {
-      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.37-beta/iTV-v0.1.37-beta-armeabi-v7a.apk",
-      "sha256": "289b0488049d6b91c13870d2aa59de4aec319f78754fa483852e5f9b2044d7d4",
-      "size_bytes": 24113536
-    },
-    "arm64-v8a": {
-      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.37-beta/iTV-v0.1.37-beta-arm64-v8a.apk",
-      "sha256": "4d16e75c7eb4e640436ae0b7231e036bbc49565fd764765bc34179dd04fb06c7",
-      "size_bytes": 24671196
-    }
-  }
+    "schema_version":  1,
+    "channel":  "beta",
+    "package_name":  "com.welove.itv",
+    "version_name":  "0.1.38-beta",
+    "version_code":  39,
+    "minimum_sdk":  26,
+    "published_at":  "2026-10-13T17:14:12Z",
+    "release_notes":  "# iTV 0.1.38-beta\n\n- Filme und Serien sichern den Wiedergabefortschritt regelmäßig lokal sowie bei Verbindungsproblemen und beim Stoppen. Ausstehende Übertragungen an die Sync-Provider bleiben auch offline gespeichert.\n- Bei Wiedergabeproblemen zeigt das Popup Ursache, Netzwerkstatus, gespeicherte Position, Versuchszähler und Countdown. Die drei Wiederholungen warten jeweils 3, 5 und 10 Sekunden; dazu kommt die Wartezeit für die Antwort des Servers. Nach dem dritten erfolglosen Versuch stehen Play und Stopp bereit. Play startet eine neue Runde ab der gespeicherten Position.\n- Unter Sync \u003e Jobs sind ausstehende Übertragungen mit Status, Versuchen, letztem Fehler und nächstem Versuch sichtbar. Einzelne, markierte oder alle Jobs lassen sich starten, stoppen und löschen – auf dem TV und in der Web-Oberfläche.\n- Vorübergehende Sync-Fehler werden weiter automatisch versucht und nach acht Versuchen nicht mehr dauerhaft aufgegeben. Bei wieder verfügbarer Verbindung werden wartende Jobs erneut angestoßen; manuell gestoppte Jobs bleiben gestoppt.\n- Jellyfin-Übertragungen verwenden ebenfalls die dauerhafte Job-Warteschlange. Das Löschen eines Jobs entfernt nicht den lokal gespeicherten Wiedergabefortschritt.\n- Datenbankmigration auf Version 142 übernimmt vorhandene Jobs und reaktiviert bisher dauerhaft aufgegebene Übertragungen.\n\nDie gezielten automatisierten Prüfungen decken Wiederholungen, Fortschrittssicherung, Job-Steuerung, Provider-Abgleich und Datenbankmigrationen ab. Eine Prüfung der neuen Dialoge auf einem TV oder Emulator steht noch aus.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.38-beta",
+    "artifacts":  {
+                      "armeabi-v7a":  {
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.38-beta/iTV-v0.1.38-beta-armeabi-v7a.apk",
+                                          "sha256":  "d34bbf58097fd4ac1bc9a681947014b3fd2a6d5896888e5869ca4a95b6e34c50",
+                                          "size_bytes":  24163148
+                                      },
+                      "arm64-v8a":  {
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.38-beta/iTV-v0.1.38-beta-arm64-v8a.apk",
+                                        "sha256":  "fb299308df9b9d2524bda14e8f934cb35f7f5f8ca49ba5fb95f9815165932abf",
+                                        "size_bytes":  24720808
+                                    }
+                  }
 }
