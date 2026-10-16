@@ -2,21 +2,21 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.38-beta",
-    "version_code":  39,
+    "version_name":  "0.1.39-beta",
+    "version_code":  40,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-13T17:14:12Z",
-    "release_notes":  "# iTV 0.1.38-beta\n\n- Filme und Serien sichern den Wiedergabefortschritt regelmäßig lokal sowie bei Verbindungsproblemen und beim Stoppen. Ausstehende Übertragungen an die Sync-Provider bleiben auch offline gespeichert.\n- Bei Wiedergabeproblemen zeigt das Popup Ursache, Netzwerkstatus, gespeicherte Position, Versuchszähler und Countdown. Die drei Wiederholungen warten jeweils 3, 5 und 10 Sekunden; dazu kommt die Wartezeit für die Antwort des Servers. Nach dem dritten erfolglosen Versuch stehen Play und Stopp bereit. Play startet eine neue Runde ab der gespeicherten Position.\n- Unter Sync \u003e Jobs sind ausstehende Übertragungen mit Status, Versuchen, letztem Fehler und nächstem Versuch sichtbar. Einzelne, markierte oder alle Jobs lassen sich starten, stoppen und löschen – auf dem TV und in der Web-Oberfläche.\n- Vorübergehende Sync-Fehler werden weiter automatisch versucht und nach acht Versuchen nicht mehr dauerhaft aufgegeben. Bei wieder verfügbarer Verbindung werden wartende Jobs erneut angestoßen; manuell gestoppte Jobs bleiben gestoppt.\n- Jellyfin-Übertragungen verwenden ebenfalls die dauerhafte Job-Warteschlange. Das Löschen eines Jobs entfernt nicht den lokal gespeicherten Wiedergabefortschritt.\n- Datenbankmigration auf Version 142 übernimmt vorhandene Jobs und reaktiviert bisher dauerhaft aufgegebene Übertragungen.\n\nDie gezielten automatisierten Prüfungen decken Wiederholungen, Fortschrittssicherung, Job-Steuerung, Provider-Abgleich und Datenbankmigrationen ab. Eine Prüfung der neuen Dialoge auf einem TV oder Emulator steht noch aus.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.38-beta",
+    "published_at":  "2026-10-16T13:13:34Z",
+    "release_notes":  "# iTV 0.1.39-beta\n\n- Die Überschrift „Because you watched“ im Film-Empfehlungsscreen ist dreimal größer und steht in einer eigenen Zeile.\n- Der zuletzt geschaute Film erscheint mit seinem Logo. Ohne Logo oder bei einem Ladefehler wird der Filmtitel angezeigt.\n- Das Mini-Bild des laufenden Films hat die doppelte Fläche und bleibt neben den Empfehlungen sichtbar.\n- Zurück schließt den Empfehlungsscreen und stellt den Player samt Bedienfokus wieder her, auch nach Filmende. Geschlossene Empfehlungen öffnen sich für denselben Film nicht erneut automatisch.\n- Der Wiederholungsdialog bei Wiedergabeproblemen verwendet nun den Stil des Puffer-Infofensters.\n\nDie Beta steht für armeabi-v7a und arm64-v8a bereit.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.39-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.38-beta/iTV-v0.1.38-beta-armeabi-v7a.apk",
-                                          "sha256":  "d34bbf58097fd4ac1bc9a681947014b3fd2a6d5896888e5869ca4a95b6e34c50",
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.39-beta/iTV-v0.1.39-beta-armeabi-v7a.apk",
+                                          "sha256":  "7f3735f29dcb1b8cac9e337b664742bfe5578408363b69cbd755800de6589196",
                                           "size_bytes":  24163148
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.38-beta/iTV-v0.1.38-beta-arm64-v8a.apk",
-                                        "sha256":  "fb299308df9b9d2524bda14e8f934cb35f7f5f8ca49ba5fb95f9815165932abf",
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.39-beta/iTV-v0.1.39-beta-arm64-v8a.apk",
+                                        "sha256":  "f304cb18b9b6e3ddb54ba42d7320dffd5fd8dcca1fb9200589e245522bad806e",
                                         "size_bytes":  24720808
                                     }
                   }
