@@ -2,21 +2,21 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.40-beta",
-    "version_code":  41,
+    "version_name":  "0.1.41-beta",
+    "version_code":  42,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-16T14:46:36Z",
-    "release_notes":  "# iTV 0.1.40-beta\n\n- Neue Serien-Detailansicht „Panorama“ mit großem Hintergrundbild, Serieninformationen und horizontaler Staffelauswahl.\n- Fünf Episodenkarten zeigen Vorschaubild, Titel, Laufzeit, Datum und Kurzbeschreibung. Die fokussierte Episode wird hervorgehoben; längere Staffeln scrollen horizontal.\n- Der rote Balken zeigt den Wiedergabefortschritt. Gesehene Episoden erhalten einen vollständig gefüllten Balken.\n- Kurzer OK-Druck startet die Episode; langer OK-Druck öffnet das vorhandene Episodenmenü, unter anderem zum Markieren als gesehen oder ungesehen.\n- Favoriten, Merkliste und Gesehen-Aktionen sind unterhalb der Episoden erreichbar.\n- Panorama lässt sich über „Serien Detail Ansicht“ in den Einstellungen oder über das Ansichtsmenü auswählen. Die bisherigen Bild- und Metadatenquellen bleiben erhalten.\n\nDie Beta steht für armeabi-v7a und arm64-v8a bereit.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.40-beta",
+    "published_at":  "2026-10-21T17:12:50Z",
+    "release_notes":  "# iTV 0.1.41-beta\n\n- Serienübersicht: Der Auswahlrahmen springt beim Nachladen von TMDB-Informationen nicht mehr zur ersten Serie zurück. Serveransichten und Bookmarks behalten die aktuelle Auswahl.\n- Navigation während des Nachladens wird berücksichtigt. Ergebnisse einer inzwischen verlassenen Kategorie werden verworfen; beim Wechsel über eine Seitengrenze werden ausreichend Einträge nachgeladen.\n- Die Fokuswiederherstellung erhält bei mehrfach angezeigten Serien die aktuelle Position im Smart Shelf.\n\nDie Beta steht für armeabi-v7a und arm64-v8a bereit.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.41-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.40-beta/iTV-v0.1.40-beta-armeabi-v7a.apk",
-                                          "sha256":  "c52c5dc0c2b0f60fd18e58d1fea1e42a20e76f517932a7c301167c035422f1b0",
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.41-beta/iTV-v0.1.41-beta-armeabi-v7a.apk",
+                                          "sha256":  "9e9e6c615f950ea90d0ac9aed653913d86a72c7752c0388ea0b4d5b89fb21367",
                                           "size_bytes":  24179532
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.40-beta/iTV-v0.1.40-beta-arm64-v8a.apk",
-                                        "sha256":  "e14d688cb10ebb624f24e4c7b3e856f00e788652c8117cf231c0732352ee8625",
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.41-beta/iTV-v0.1.41-beta-arm64-v8a.apk",
+                                        "sha256":  "ea4801bcc26be159acd7fac331d94b86a4203163a7c741c519eb5c753fc26e70",
                                         "size_bytes":  24737192
                                     }
                   }
