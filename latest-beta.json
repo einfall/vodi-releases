@@ -1,23 +1,23 @@
 {
-    "schema_version": 1,
-    "channel": "beta",
-    "package_name": "com.welove.itv",
-    "version_name": "0.1.43-beta",
-    "version_code": 44,
-    "minimum_sdk": 26,
-    "published_at": "2026-10-24T20:04:20Z",
-    "release_notes": "# iTV 0.1.43-beta\n\n- Kleinere Icons in der linken Sidebar. Der Auswahlbalken liegt hinter Icon und Beschriftung; das aktive Icon behält auch beim Aufklappen seine Akzentfarbe.\n- Die geöffnete Sidebar verläuft von der dunklen Iconleiste zur Panelfarbe. Die Kategorienmenüs bei Movie, Serien und Home verwenden denselben Übergang.\n- Mehr Platz am oberen Rand bei Live-TV, Suche, Sync und Setup. Die Live-TV-Kopfzeile wird vollständig angezeigt.\n- Der Profilname erscheint in der Profilzeile des geöffneten Menüs. Oben bleibt das iTV-Logo ohne zusätzlichen Profilnamen.\n- Sync-Aktivitäten stehen über der fett dargestellten Uhr. VPN- und Serversymbole ersetzen die bisherigen farbigen Statuspunkte.\n\nDie Beta steht für armeabi-v7a und arm64-v8a bereit.\n",
-    "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.43-beta",
-    "artifacts": {
-        "armeabi-v7a": {
-            "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.43-beta/iTV-v0.1.43-beta-armeabi-v7a.apk",
-            "sha256": "e82874d90a44df1a4d3f75d07c4a33263383ca90fe1af51971c51f0ef2634fff",
-            "size_bytes": 24261452
-        },
-        "arm64-v8a": {
-            "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.43-beta/iTV-v0.1.43-beta-arm64-v8a.apk",
-            "sha256": "c3534980ceee99901db62989f19177009147915c114dab910604e78f40faceb5",
-            "size_bytes": 24819112
-        }
-    }
+    "schema_version":  1,
+    "channel":  "beta",
+    "package_name":  "com.welove.itv",
+    "version_name":  "0.1.44-beta",
+    "version_code":  45,
+    "minimum_sdk":  26,
+    "published_at":  "2026-10-25T14:38:16Z",
+    "release_notes":  "# iTV 0.1.44-beta\n\n- Hauptsidebar und Kategorien verwenden einen gemeinsamen Auswahlrahmen. Der kompaktere Balken beginnt in der Hauptsidebar am linken Bildschirmrand und bleibt auch beim Zoomen dort bündig. Das aktive Screen-Icon behält seine Akzentfarbe.\n- „Halten“ vergrößert den gesamten Auswahlbalken mit Icon und Text sanft und behält die Größe bis zum Fokuswechsel. „Wippen“ zoomt kurz hinein und wieder zurück. Fokusgröße und Zoomdauer lassen sich einstellen; die Zoomdauer gilt gemeinsam für Menüs, Listen und Karten.\n- Hauptsidebar und Kategorien öffnen und schließen mit derselben einstellbaren Menüanimation. Die Dauer ist von der Fokus-Zoomdauer getrennt; 0 ms schaltet die Menüanimation aus.\n- Mehr Sidebar-Einstellungen für Reihenfolge, Sichtbarkeit und Auswahl der Icons, Beschriftungen, Icon- und Textgröße, Logo, seitliches Padding sowie Abstand zum Screen. Je nach Navigationsmodus werden die passenden Topbar- oder Sidebar-Einstellungen angeboten.\n- Optionale Menükanten „Nuvio“, „Nuvio Legacy“ und „Nuvio Space“ sowie ein einstellbarer weicher Randschatten. Kategorien können nach dem Schließen der Hauptsidebar wieder geöffnet werden, wenn diese von dort aufgerufen wurde.\n- Einstellungen bleiben während des Ladens bedienbar. Oberfläche, Profile und Kategorien sind in der Einstellungsnavigation neu angeordnet. Die Serververwaltung zeigt Tabs mit „+ Neu“ und den vorhandenen Servern.\n- Zusätzliche Erklärungsgrafiken für Ansichten, Fokus, Glanz, Rahmen, Abstände und Übergänge. Animierbare Effektvorschauen bewegen sich beim Fokussieren der Einstellung. Film- und Serien-Detailansichten sind gemeinsam unter Oberfläche → Browse erreichbar.\n- Optionaler Nuvio-Glanz auf fokussierten Covern. Die äußeren Layout-Rahmen von Einstellungen, Sync und Live-TV lassen sich getrennt ein- und ausschalten.\n- Profilbilder werden für Profilauswahl, Sidebar und Topbar gemeinsam zwischengespeichert. Für die Profilauswahl steht neben dem Standardhintergrund die animierte „Filmes“-Posterwand zur Verfügung.\n- Live-TV: Mini-TV und Überschrift sind an den Widgeträndern ausgerichtet. Die Kopfzeile zeigt die Aktionen Sender sortieren, Navigation und Senderlogo in dieser Reihenfolge; der Name der fokussierten Aktion steht hinter den Icons. Info- und Auswahl-Popups erklären die Funktionen und Navigationsarten.\n- Die deutsche Hauptnavigation zeigt „Filme“ statt „Film“.\n\nDie Beta steht für armeabi-v7a und arm64-v8a bereit. Die bisherige Testsignatur bleibt erhalten, damit bestehende Installationen ihre Profile, Einstellungen und lokalen Daten beim Update behalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.44-beta",
+    "artifacts":  {
+                      "armeabi-v7a":  {
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.44-beta/iTV-v0.1.44-beta-armeabi-v7a.apk",
+                                          "sha256":  "361b4e1d9e9b0dbb52e1824792265c388044c9fe4a3e64a50a7d8c8d336b0fef",
+                                          "size_bytes":  24376716
+                                      },
+                      "arm64-v8a":  {
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.44-beta/iTV-v0.1.44-beta-arm64-v8a.apk",
+                                        "sha256":  "d7e04d463b80f48338283ac51f32b7c883e8b5506db11658a6cc6c2e7569cdc1",
+                                        "size_bytes":  24934376
+                                    }
+                  }
 }
