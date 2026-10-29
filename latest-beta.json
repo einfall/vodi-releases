@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.45-beta",
-    "version_code":  46,
+    "version_name":  "0.1.46-beta",
+    "version_code":  71,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-25T19:14:43Z",
-    "release_notes":  "# iTV 0.1.45-beta\n\n- Neuer optionaler Cover-Glow im NuvioTV-Stil: Ein weicher Farbschein umgibt das aktive Cover. Seine Farbe wird separat aus dem Artwork berechnet und bei sehr dunklen oder hellen Bildern ausgeglichen. Berechnete Farben werden zwischengespeichert; der Auswahlrahmen und der optionale diagonale Cover-Glanz bleiben separat einstellbar.\n- Das Menü bei langem Zurückdrücken verwendet verständlichere Bezeichnungen wie „Katalog-Layout“ und „Karten-Navigation“. Schnelle Links-/Rechts-Eingaben einschließlich Wrap-around gehen nicht mehr durch verzögert gespeicherte Profilwerte verloren. Topbar-Design wird nur im Topbar-Modus angeboten.\n- 4 Backdrops, 8 Covers und Posterwand sind für die linke Sidebar angepasst. Titel und Metadaten erhalten Platz am oberen Rand; die Posterwand reserviert zusätzlich Platz zwischen ihrer Überschrift und den vergrößerten Karten.\n- Big Backdrop zeigt Titel beziehungsweise vorhandenes Titellogo, Metadaten und Handlung in einem neu gestalteten Infobereich. Der obere Seitenzähler im Studio-Katalog entfällt.\n- Unter Oberfläche → Allgemein steht direkt unter der Benachrichtigungsdauer die neue Positionsauswahl. Eine Testbenachrichtigung lässt sich mit den Pfeiltasten verschieben; OK speichert die Position für das Profil, Zurück verwirft die Änderung.\n- Der Menüblock der linken Sidebar von Profil bis Einstellungen lässt sich oben, mittig oder unten ausrichten. Logo und Statusbereich bleiben an ihrer Position.\n- Zusätzliche, beim Fokussieren animierte Erklärungsgrafiken für Cards Pivot, Live \u0026 EPG und Player. Poster-Wall-Expanded-Time steht direkt unter Poster-Wall-Expanded.\n- Im Farbthema kann eine eigene Akzentfarbe mit Farbfeldern sowie Reglern für Farbton, Sättigung und Helligkeit gewählt werden. Die Farbauswahl wird erst beim Speichern übernommen und profilbezogen gespeichert.\n\nDie Beta steht für ARMv7 und ARM64 bereit. Die bisherige Testsignatur bleibt erhalten, sodass vorhandene Installationen beim Update ihre Profile, Einstellungen und lokalen Daten behalten.\n\nGeprüft mit 732 Unit-Tests, Release-Lint, Kotlin-Build und UI-Guardrails. Die Emulatorprüfungen decken unter anderem Fokus und Glow, schnelle Menüwechsel, Benachrichtigungsposition, Farbauswahl sowie zehn Film- und Serienansichten mit linker Sidebar ab.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.45-beta",
+    "published_at":  "2026-10-29T21:13:26Z",
+    "release_notes":  "# iTV 0.1.46-beta\n\n- Die erprobte neue Oberfläche ist jetzt Teil der Hauptversion: iTV Modern und iTV Klassisch mit abgestimmten Farbpaletten, Home-Ansichten sowie getrennten Film- und Serienkatalogen.\n- Große Kataloge nutzen seitenweise Daten, virtualisierte Listen, gezieltes Vorladen und begrenzte Bild- und Detail-Caches. Fokus, Zoom, Pivot und gehaltene Richtungstasten sind auf flüssiges TV-Browsing abgestimmt; Trailer werden wiederverwendet.\n- Der native Gestaltungsdialog bietet visuelle Vorschauen für Layout, Cover, Details, Buttons, Navigation, Hintergrund, Metadaten und Studio. Film und Serie können gemeinsam oder getrennt gestaltet werden.\n- Neue Karten- und Browsing-Varianten: Backdrop vor Covern, Pivot als Backdrop, animiertes Einschieben bei feststehender vorderer Karte, Rangzahlen, optionale Statusanzeigen und Cover-Progress.\n- Eine gemeinsame Button-Vorlage mit Glasverlauf, gefüllter Fläche oder Kontur. Normal- und Fokusfarben, zusätzliche Fokus-Kontur, runde oder eckige Form und Eckenradius sind einstellbar. Aktive Favoriten- und Merkliste-Icons bleiben rot beziehungsweise gelb.\n- Überarbeitete Detailansichten mit kompakten Aktionen und einstellbaren Cast-, Empfehlungs- und ähnlichen Titelreihen. Die Serien-Posterliste verwendet ein größeres Cover über den Buttons unten links; die Episodenbox zeigt zusätzliche Fortschrittsinformationen.\n- Gemeinsames Menü bei langem OK mit Icons, Favoriten, Merkliste, Artwork und dem Entfernen von Titeln aus der lokalen Bibliothek. Die bestehende Synchronisierung, Live TV und Wiedergabe bleiben integriert.\n- Vereinfachte SIMKL-Verbindung und Weiterentwicklung der TMDB-Reihen mit Verfügbarkeit, Vormerken externer Titel und Wiederholen fehlgeschlagener Reihen.\n- Das Welcome-Webinterface bleibt erhalten; das bisherige Verwaltungs-Webinterface und Layout-Studio entfallen. Gestaltung erfolgt direkt auf dem TV.\n\nDie Beta wird für ARMv7 und ARM64 mit dem regulären Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur veröffentlicht. Ein Update der Hauptversion behält deren Profile, Einstellungen und lokale Daten. Die separat installierte „iTV Test“ und ihre Daten bleiben getrennt.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.46-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.45-beta/iTV-v0.1.45-beta-armeabi-v7a.apk",
-                                          "sha256":  "ffd5d789fdd8172196aca823758bac16e582c73871deebd87218c722a256f6fe",
-                                          "size_bytes":  24425868
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.46-beta/iTV-v0.1.46-beta-armeabi-v7a.apk",
+                                          "sha256":  "848dec25991b453a89d579a95db545c91374cc2ceb59f9d5f3e462a6c85c17f7",
+                                          "size_bytes":  26133154
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.45-beta/iTV-v0.1.45-beta-arm64-v8a.apk",
-                                        "sha256":  "b1b394ac361e0b2f7024c7056fe7574d6600d737093bb1289b5b64ddd2f64811",
-                                        "size_bytes":  24983528
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.46-beta/iTV-v0.1.46-beta-arm64-v8a.apk",
+                                        "sha256":  "fafcb866105153a5b8993a03c31840a94e85552069bcd04c2bd67ab9c76ef8a2",
+                                        "size_bytes":  26690814
                                     }
                   }
 }
