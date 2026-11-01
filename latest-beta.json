@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.46-beta",
-    "version_code":  71,
+    "version_name":  "0.1.47-beta",
+    "version_code":  72,
     "minimum_sdk":  26,
-    "published_at":  "2026-10-29T21:13:26Z",
-    "release_notes":  "# iTV 0.1.46-beta\n\n- Die erprobte neue Oberfläche ist jetzt Teil der Hauptversion: iTV Modern und iTV Klassisch mit abgestimmten Farbpaletten, Home-Ansichten sowie getrennten Film- und Serienkatalogen.\n- Große Kataloge nutzen seitenweise Daten, virtualisierte Listen, gezieltes Vorladen und begrenzte Bild- und Detail-Caches. Fokus, Zoom, Pivot und gehaltene Richtungstasten sind auf flüssiges TV-Browsing abgestimmt; Trailer werden wiederverwendet.\n- Der native Gestaltungsdialog bietet visuelle Vorschauen für Layout, Cover, Details, Buttons, Navigation, Hintergrund, Metadaten und Studio. Film und Serie können gemeinsam oder getrennt gestaltet werden.\n- Neue Karten- und Browsing-Varianten: Backdrop vor Covern, Pivot als Backdrop, animiertes Einschieben bei feststehender vorderer Karte, Rangzahlen, optionale Statusanzeigen und Cover-Progress.\n- Eine gemeinsame Button-Vorlage mit Glasverlauf, gefüllter Fläche oder Kontur. Normal- und Fokusfarben, zusätzliche Fokus-Kontur, runde oder eckige Form und Eckenradius sind einstellbar. Aktive Favoriten- und Merkliste-Icons bleiben rot beziehungsweise gelb.\n- Überarbeitete Detailansichten mit kompakten Aktionen und einstellbaren Cast-, Empfehlungs- und ähnlichen Titelreihen. Die Serien-Posterliste verwendet ein größeres Cover über den Buttons unten links; die Episodenbox zeigt zusätzliche Fortschrittsinformationen.\n- Gemeinsames Menü bei langem OK mit Icons, Favoriten, Merkliste, Artwork und dem Entfernen von Titeln aus der lokalen Bibliothek. Die bestehende Synchronisierung, Live TV und Wiedergabe bleiben integriert.\n- Vereinfachte SIMKL-Verbindung und Weiterentwicklung der TMDB-Reihen mit Verfügbarkeit, Vormerken externer Titel und Wiederholen fehlgeschlagener Reihen.\n- Das Welcome-Webinterface bleibt erhalten; das bisherige Verwaltungs-Webinterface und Layout-Studio entfallen. Gestaltung erfolgt direkt auf dem TV.\n\nDie Beta wird für ARMv7 und ARM64 mit dem regulären Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur veröffentlicht. Ein Update der Hauptversion behält deren Profile, Einstellungen und lokale Daten. Die separat installierte „iTV Test“ und ihre Daten bleiben getrennt.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.46-beta",
+    "published_at":  "2026-11-01T19:30:21Z",
+    "release_notes":  "# iTV 0.1.47-beta\n\n- Neue Streaming-Filme und Neue Streaming-Serien haben im Home-Layout-Editor wieder einen automatischen Coverwechsel. Beide Reihen lassen sich getrennt schalten, das Intervall ist einstellbar und die Fortschrittslinie kann unabhängig angezeigt werden. Der Wechsel funktioniert auch im Home-Raster und pausiert während Menüs, Details und Wiedergabe.\n- Die aktuelle Wohnzimmeransicht ist als Standard gespeichert: Home, Film- und Serienkataloge, Detailansichten, Bibliothek, Navigation, Hintergründe sowie Menü-, Live-TV- und Aktionsbuttons. Neuinstallationen und neue Profile starten mit diesen Einstellungen; bestehende individuelle Einstellungen bleiben beim Update erhalten.\n- Zusätzliche Browsing-Modi: „Paging · reihenweise“ schiebt am Rand eine vollständige Reihe nach. „Nuvio · fließend“ bewegt das gesamte Raster weich zur 42-%-Fokusposition. Beide sind auch im Studio-Katalog auswählbar.\n- Serien-Detailansichten besitzen einen eigenen Hintergrund mit getrennten Einstellungen für Abdunklung, Verlauf und Trailer. Die Hintergrundauswahl zeigt die tatsächliche Detailansicht als Vorschau.\n- Erweiterte Button- und Menügestaltung mit getrennten Normal- und Fokusfarben, Transparenz, Glasverlauf, Füllung, optionaler Kontur und feiner Lichtlinie. Menüfarben gelten in den Menüs; die Topbar behält ihre eigene Gestaltung. Live-TV kann unabhängig gestaltet werden.\n- Farbige Metadaten-Pills, altersabhängige FSK-Farben, dunkelgraue Bewertungs-Pills und optionale Metadaten auf Covern. Beschreibungen auf Home lassen sich ein- und ausschalten. Modern übernimmt die abgestimmte Film-Katalogdarstellung.\n- Detailaktionen bieten einstellbare Größen sowie getrennte Schalter für Resume-Zeit und Fortschrittsfüllung. Korrigierte Coverabstände, die Darstellung der Cast-Reihe und langes OK im Live-TV sind enthalten.\n\nDie Beta wird für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur bereitgestellt. Profile, Server, Bibliothek und Wiedergabefortschritt bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.47-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.46-beta/iTV-v0.1.46-beta-armeabi-v7a.apk",
-                                          "sha256":  "848dec25991b453a89d579a95db545c91374cc2ceb59f9d5f3e462a6c85c17f7",
-                                          "size_bytes":  26133154
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.47-beta/iTV-v0.1.47-beta-armeabi-v7a.apk",
+                                          "sha256":  "f1747dd802fe46f060cf02dde215c7279286fa0159d3e92f718f165ef81a648f",
+                                          "size_bytes":  26220050
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.46-beta/iTV-v0.1.46-beta-arm64-v8a.apk",
-                                        "sha256":  "fafcb866105153a5b8993a03c31840a94e85552069bcd04c2bd67ab9c76ef8a2",
-                                        "size_bytes":  26690814
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.47-beta/iTV-v0.1.47-beta-arm64-v8a.apk",
+                                        "sha256":  "4c8abc4c98a3a4cd0b5dfc19286941e532e3305ab9e1a9da9f1c76157337baee",
+                                        "size_bytes":  26777710
                                     }
                   }
 }
