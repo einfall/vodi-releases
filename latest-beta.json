@@ -2,22 +2,22 @@
     "schema_version":  1,
     "channel":  "beta",
     "package_name":  "com.welove.itv",
-    "version_name":  "0.1.47-beta",
-    "version_code":  72,
+    "version_name":  "0.1.48-beta",
+    "version_code":  73,
     "minimum_sdk":  26,
-    "published_at":  "2026-11-01T19:30:21Z",
-    "release_notes":  "# iTV 0.1.47-beta\n\n- Neue Streaming-Filme und Neue Streaming-Serien haben im Home-Layout-Editor wieder einen automatischen Coverwechsel. Beide Reihen lassen sich getrennt schalten, das Intervall ist einstellbar und die Fortschrittslinie kann unabhängig angezeigt werden. Der Wechsel funktioniert auch im Home-Raster und pausiert während Menüs, Details und Wiedergabe.\n- Die aktuelle Wohnzimmeransicht ist als Standard gespeichert: Home, Film- und Serienkataloge, Detailansichten, Bibliothek, Navigation, Hintergründe sowie Menü-, Live-TV- und Aktionsbuttons. Neuinstallationen und neue Profile starten mit diesen Einstellungen; bestehende individuelle Einstellungen bleiben beim Update erhalten.\n- Zusätzliche Browsing-Modi: „Paging · reihenweise“ schiebt am Rand eine vollständige Reihe nach. „Nuvio · fließend“ bewegt das gesamte Raster weich zur 42-%-Fokusposition. Beide sind auch im Studio-Katalog auswählbar.\n- Serien-Detailansichten besitzen einen eigenen Hintergrund mit getrennten Einstellungen für Abdunklung, Verlauf und Trailer. Die Hintergrundauswahl zeigt die tatsächliche Detailansicht als Vorschau.\n- Erweiterte Button- und Menügestaltung mit getrennten Normal- und Fokusfarben, Transparenz, Glasverlauf, Füllung, optionaler Kontur und feiner Lichtlinie. Menüfarben gelten in den Menüs; die Topbar behält ihre eigene Gestaltung. Live-TV kann unabhängig gestaltet werden.\n- Farbige Metadaten-Pills, altersabhängige FSK-Farben, dunkelgraue Bewertungs-Pills und optionale Metadaten auf Covern. Beschreibungen auf Home lassen sich ein- und ausschalten. Modern übernimmt die abgestimmte Film-Katalogdarstellung.\n- Detailaktionen bieten einstellbare Größen sowie getrennte Schalter für Resume-Zeit und Fortschrittsfüllung. Korrigierte Coverabstände, die Darstellung der Cast-Reihe und langes OK im Live-TV sind enthalten.\n\nDie Beta wird für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur bereitgestellt. Profile, Server, Bibliothek und Wiedergabefortschritt bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.47-beta",
+    "published_at":  "2026-11-09T18:22:08Z",
+    "release_notes":  "# iTV 0.1.48-beta\n\n- Panorama für Film- und Serienkataloge mit mehr Platz für das Backdrop, angepasster Beschreibung und dezent abgerundetem Kataloglabel. Der Wechsel zwischen Inhaltsreihen mit Punkten/Pills ist im Home-Panorama verfügbar.\n- Kürzere Layoutnamen: „Panorama“ und „Coverinfo“.\n- „Nuvio · fließend“ zeigt vollständige Coverfenster. Am Anfang wandert die Auswahl bis zum eingestellten Pivot; danach rückt die Reihe mit der bisherigen Federanimation nach. Auch das letzte Fenster bleibt gefüllt. Nach oben öffnet am Kataloganfang nicht mehr die Kategorie-Sidebar.\n- Sieben Cover als Standard. „Automatisch“ berücksichtigt Abstand und Zoomreserve und passt die Coverbreite bei knappem Platz an. Der Bildzoom wächst gleichmäßig nach oben und unten; eingeblendete Titel behalten ihren Abstand.\n- Serien zeigen im Player auf Wunsch „S01E01 - Episodentitel“ unter dem Logo. Die Anzeige ist standardmäßig eingeschaltet und lässt sich in den Player-Einstellungen deaktivieren.\n- Optionale Elternhinweise werden beim Playerstart im Hintergrund von IMDb geladen und zusammen mit der Infobar angezeigt. Die Anzeige berücksichtigt die eingestellte App-Sprache und verzichtet auf einen zusätzlichen IMDb-Schriftzug.\n\nDie Beta ist für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur vorgesehen. Vorhandene Profile, Einstellungen, Bibliothek und Wiedergabefortschritte bleiben beim Update erhalten.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.48-beta",
     "artifacts":  {
                       "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.47-beta/iTV-v0.1.47-beta-armeabi-v7a.apk",
-                                          "sha256":  "f1747dd802fe46f060cf02dde215c7279286fa0159d3e92f718f165ef81a648f",
-                                          "size_bytes":  26220050
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.48-beta/iTV-v0.1.48-beta-armeabi-v7a.apk",
+                                          "sha256":  "4a172999e601c7912ae9ef8d03613b8d09669bb6eebd8f9d2a44de0face5a279",
+                                          "size_bytes":  26269530
                                       },
                       "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.47-beta/iTV-v0.1.47-beta-arm64-v8a.apk",
-                                        "sha256":  "4c8abc4c98a3a4cd0b5dfc19286941e532e3305ab9e1a9da9f1c76157337baee",
-                                        "size_bytes":  26777710
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.48-beta/iTV-v0.1.48-beta-arm64-v8a.apk",
+                                        "sha256":  "bd6c9049721cf67c145281b1152f9517ec319c3d012bced06bcfefa83f8a22d2",
+                                        "size_bytes":  26827190
                                     }
                   }
 }
