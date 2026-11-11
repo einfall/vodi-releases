@@ -1,23 +1,23 @@
 {
-    "schema_version":  1,
-    "channel":  "beta",
-    "package_name":  "com.welove.itv",
-    "version_name":  "0.1.48-beta",
-    "version_code":  73,
-    "minimum_sdk":  26,
-    "published_at":  "2026-11-09T18:22:08Z",
-    "release_notes":  "# iTV 0.1.48-beta\n\n- Panorama für Film- und Serienkataloge mit mehr Platz für das Backdrop, angepasster Beschreibung und dezent abgerundetem Kataloglabel. Der Wechsel zwischen Inhaltsreihen mit Punkten/Pills ist im Home-Panorama verfügbar.\n- Kürzere Layoutnamen: „Panorama“ und „Coverinfo“.\n- „Nuvio · fließend“ zeigt vollständige Coverfenster. Am Anfang wandert die Auswahl bis zum eingestellten Pivot; danach rückt die Reihe mit der bisherigen Federanimation nach. Auch das letzte Fenster bleibt gefüllt. Nach oben öffnet am Kataloganfang nicht mehr die Kategorie-Sidebar.\n- Sieben Cover als Standard. „Automatisch“ berücksichtigt Abstand und Zoomreserve und passt die Coverbreite bei knappem Platz an. Der Bildzoom wächst gleichmäßig nach oben und unten; eingeblendete Titel behalten ihren Abstand.\n- Serien zeigen im Player auf Wunsch „S01E01 - Episodentitel“ unter dem Logo. Die Anzeige ist standardmäßig eingeschaltet und lässt sich in den Player-Einstellungen deaktivieren.\n- Optionale Elternhinweise werden beim Playerstart im Hintergrund von IMDb geladen und zusammen mit der Infobar angezeigt. Die Anzeige berücksichtigt die eingestellte App-Sprache und verzichtet auf einen zusätzlichen IMDb-Schriftzug.\n\nDie Beta ist für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur vorgesehen. Vorhandene Profile, Einstellungen, Bibliothek und Wiedergabefortschritte bleiben beim Update erhalten.\n",
-    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.48-beta",
-    "artifacts":  {
-                      "armeabi-v7a":  {
-                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.48-beta/iTV-v0.1.48-beta-armeabi-v7a.apk",
-                                          "sha256":  "4a172999e601c7912ae9ef8d03613b8d09669bb6eebd8f9d2a44de0face5a279",
-                                          "size_bytes":  26269530
-                                      },
-                      "arm64-v8a":  {
-                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.48-beta/iTV-v0.1.48-beta-arm64-v8a.apk",
-                                        "sha256":  "bd6c9049721cf67c145281b1152f9517ec319c3d012bced06bcfefa83f8a22d2",
-                                        "size_bytes":  26827190
-                                    }
-                  }
+  "schema_version": 1,
+  "channel": "beta",
+  "package_name": "com.welove.itv",
+  "version_name": "0.1.49-beta",
+  "version_code": 74,
+  "minimum_sdk": 26,
+  "published_at": "2026-11-11T17:08:15Z",
+  "release_notes": "# iTV 0.1.49-beta\n\n- Neues lokales Webinterface für Profile, Server sowie Seekr-, TMDB-, MDBList- und SIMKL-Zugangsdaten. Unter Einstellungen → Info stehen Webadresse, QR-Code und eine zeitlich begrenzte PIN. Gespeicherte Passwörter und API-Keys werden im Browser nicht angezeigt.\n- Einstellungen zwischen iTV-Boxen im WLAN/LAN übertragen: automatische Gerätesuche, vierstellige Ziel-PIN und abschließende Ja/Nein-Freigabe am Ziel-TV. Die Übertragung lässt sich in der App und im Webinterface starten.\n- Alle zwölf Übertragungsbereiche sind standardmäßig ausgewählt und einzeln per Checkbox abwählbar. Die Vorschau zeigt Quelle → Ziel, Profilzuordnung und ausgewählte Bereiche im App-Design. Gleichnamige Profile werden aktualisiert, fehlende Profile angelegt.\n- Kopierfortschritt mit tatsächlichen Paket-Bytes, Freigabestatus und Übernahmeschritten. Vor dem Anwenden wird eine verschlüsselte lokale Sicherung erstellt, die über den Transferdialog wiederhergestellt werden kann.\n- IntroDB und TheIntroDB unter einer gemeinsamen Kategorie, unabhängig aktivierbar. Optionaler IntroDB-CSV-Komplettdownload im Sync-Bildschirm mit täglicher Automatik und Zuordnung zum lokalen Katalog über TMDB/IMDb. Zuerst wird lokal geprüft, dann IntroDB und bei fehlendem Intro optional TheIntroDB.\n- Player-Infobar mit Symbolen für tatsächlich verfügbare Seekr-, IntroDB- und TheIntroDB-Daten. Auflösung bleibt ganz rechts, Audio direkt daneben. Anbieterprüfungen laufen im Hintergrund; Playerstart und Bedienung warten nicht auf die Antworten.\n- Überarbeitete Fernbedienungs- und Tastatursteuerung bei API-Keys, Passwörtern und weiteren Texteingaben: Nach der Eingabe ist „Übernehmen“ zuverlässig erreichbar, lange Werte bleiben vollständig erhalten.\n\nDie Beta wird für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur bereitgestellt. Beim Update bleiben vorhandene Profile, Einstellungen, Bibliothek und Wiedergabefortschritte erhalten.\n\nBeim Gerätetransfer werden SIMKL-Client-ID und Konfiguration übernommen. OAuth-Anmeldungen bleiben gerätebezogen; bei geänderter Client-ID ist eine neue SIMKL-Anmeldung erforderlich. Die Katalogdaten selbst werden nicht mitkopiert und können auf dem Ziel über Sync geladen werden.\n\nGeprüft: 1.157 Unit-Tests, 45 gezielte Android-Tests, Browser-Eingaben und Fortschrittsanzeige sowie die Übertragung Wohnzimmer → Schlafzimmer mit Prüfsummenvergleich der Einstellungen.\n",
+  "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.49-beta",
+  "artifacts": {
+    "armeabi-v7a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.49-beta/iTV-v0.1.49-beta-armeabi-v7a.apk",
+      "sha256": "995f5d0d77d9d4b707c4b419008d235b187521a56964dd89c9cb1707fec542d2",
+      "size_bytes": 26440526
+    },
+    "arm64-v8a": {
+      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.49-beta/iTV-v0.1.49-beta-arm64-v8a.apk",
+      "sha256": "0aeffc2b6d4faabcd2981b72be3d342381dc9d6b344a3f8ef6c7ca49dd7210d6",
+      "size_bytes": 26998186
+    }
+  }
 }
