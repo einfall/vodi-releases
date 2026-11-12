@@ -1,23 +1,23 @@
 {
-  "schema_version": 1,
-  "channel": "beta",
-  "package_name": "com.welove.itv",
-  "version_name": "0.1.49-beta",
-  "version_code": 74,
-  "minimum_sdk": 26,
-  "published_at": "2026-11-11T17:08:15Z",
-  "release_notes": "# iTV 0.1.49-beta\n\n- Neues lokales Webinterface für Profile, Server sowie Seekr-, TMDB-, MDBList- und SIMKL-Zugangsdaten. Unter Einstellungen → Info stehen Webadresse, QR-Code und eine zeitlich begrenzte PIN. Gespeicherte Passwörter und API-Keys werden im Browser nicht angezeigt.\n- Einstellungen zwischen iTV-Boxen im WLAN/LAN übertragen: automatische Gerätesuche, vierstellige Ziel-PIN und abschließende Ja/Nein-Freigabe am Ziel-TV. Die Übertragung lässt sich in der App und im Webinterface starten.\n- Alle zwölf Übertragungsbereiche sind standardmäßig ausgewählt und einzeln per Checkbox abwählbar. Die Vorschau zeigt Quelle → Ziel, Profilzuordnung und ausgewählte Bereiche im App-Design. Gleichnamige Profile werden aktualisiert, fehlende Profile angelegt.\n- Kopierfortschritt mit tatsächlichen Paket-Bytes, Freigabestatus und Übernahmeschritten. Vor dem Anwenden wird eine verschlüsselte lokale Sicherung erstellt, die über den Transferdialog wiederhergestellt werden kann.\n- IntroDB und TheIntroDB unter einer gemeinsamen Kategorie, unabhängig aktivierbar. Optionaler IntroDB-CSV-Komplettdownload im Sync-Bildschirm mit täglicher Automatik und Zuordnung zum lokalen Katalog über TMDB/IMDb. Zuerst wird lokal geprüft, dann IntroDB und bei fehlendem Intro optional TheIntroDB.\n- Player-Infobar mit Symbolen für tatsächlich verfügbare Seekr-, IntroDB- und TheIntroDB-Daten. Auflösung bleibt ganz rechts, Audio direkt daneben. Anbieterprüfungen laufen im Hintergrund; Playerstart und Bedienung warten nicht auf die Antworten.\n- Überarbeitete Fernbedienungs- und Tastatursteuerung bei API-Keys, Passwörtern und weiteren Texteingaben: Nach der Eingabe ist „Übernehmen“ zuverlässig erreichbar, lange Werte bleiben vollständig erhalten.\n\nDie Beta wird für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur bereitgestellt. Beim Update bleiben vorhandene Profile, Einstellungen, Bibliothek und Wiedergabefortschritte erhalten.\n\nBeim Gerätetransfer werden SIMKL-Client-ID und Konfiguration übernommen. OAuth-Anmeldungen bleiben gerätebezogen; bei geänderter Client-ID ist eine neue SIMKL-Anmeldung erforderlich. Die Katalogdaten selbst werden nicht mitkopiert und können auf dem Ziel über Sync geladen werden.\n\nGeprüft: 1.157 Unit-Tests, 45 gezielte Android-Tests, Browser-Eingaben und Fortschrittsanzeige sowie die Übertragung Wohnzimmer → Schlafzimmer mit Prüfsummenvergleich der Einstellungen.\n",
-  "release_url": "https://github.com/einfall/vodi-releases/releases/tag/v0.1.49-beta",
-  "artifacts": {
-    "armeabi-v7a": {
-      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.49-beta/iTV-v0.1.49-beta-armeabi-v7a.apk",
-      "sha256": "995f5d0d77d9d4b707c4b419008d235b187521a56964dd89c9cb1707fec542d2",
-      "size_bytes": 26440526
-    },
-    "arm64-v8a": {
-      "url": "https://github.com/einfall/vodi-releases/releases/download/v0.1.49-beta/iTV-v0.1.49-beta-arm64-v8a.apk",
-      "sha256": "0aeffc2b6d4faabcd2981b72be3d342381dc9d6b344a3f8ef6c7ca49dd7210d6",
-      "size_bytes": 26998186
-    }
-  }
+    "schema_version":  1,
+    "channel":  "beta",
+    "package_name":  "com.welove.itv",
+    "version_name":  "0.1.50-beta",
+    "version_code":  75,
+    "minimum_sdk":  26,
+    "published_at":  "2026-11-12T21:12:05Z",
+    "release_notes":  "# iTV 0.1.50-beta\n\n- Optionaler Backdrop-Pan nur in Panorama: Nach 0,8 Sekunden ruhendem Fokus schwenkt der Bildausschnitt einmal weich von unten nach oben und bleibt stehen. Beim Navigieren wird der Schwenk abgebrochen. Dauer über `detail_backdrop_seconds` von 1 bis 60 Sekunden, Standard 10 Sekunden. Bei reduzierter Bewegung bleibt das Bild statisch.\n- Während eines laufenden Panorama-Trailers beliebig oft mit ↑ vom aktiven Cover zum Backdrop und mit ↓ zurück wechseln. Play/Pause und Stop stehen unten rechts im Trailer-Bereich; Play/Pause setzt denselben Trailer ohne Neuladen fort.\n- Stop oder natürliches Trailer-Ende beendet den Player, blendet das Backdrop wieder ein und startet einen aktivierten Backdrop-Pan neu. Der Fokus kehrt zum aktiven Cover zurück. Ohne aktiven Trailer dienen ↑/↓ wieder der normalen Katalognavigation.\n- Beim Fokuswechsel aus den Einstellungen zur Topbar oder Sidebar verkleinert sich das Einstellungsfenster weich auf 60 Prozent. Bei der Rückkehr wächst es wieder auf volle Größe; Auswahl und Scrollposition bleiben erhalten.\n- Die Intro-Abfrage mit Ja/Nein ist in den Player-Einstellungen separat schaltbar. Pro Wiedergabe wird nur einmal gefragt; am Intro-Ende ist keine Bestätigung erforderlich.\n\nDie Beta enthält APKs für ARMv7 und ARM64 mit dem Paketnamen `com.welove.itv` und der bisherigen Beta-Signatur. Vorhandene Profile, Einstellungen, Bibliothek und Wiedergabefortschritte bleiben beim Update erhalten.\n\nGeprüft: 1.176 Unit-Tests ohne Fehler oder übersprungene Tests, Release-Lint, UI-Guardrails sowie drei UI-Tests auf dem Wohnzimmer-TV. Die TV-Tests prüfen den wiederholten Trailer-Wechsel, Play/Pause und Stop, die Rückkehr nach Trailer-Ende sowie den Setup-Effekt für Topbar und Sidebar.\n",
+    "release_url":  "https://github.com/einfall/vodi-releases/releases/tag/v0.1.50-beta",
+    "artifacts":  {
+                      "armeabi-v7a":  {
+                                          "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.50-beta/iTV-v0.1.50-beta-armeabi-v7a.apk",
+                                          "sha256":  "14bb24fdc2560d6710c50ed4546fdbd9e0b6ffc22d5d9e298576e02fb6128a1d",
+                                          "size_bytes":  26473294
+                                      },
+                      "arm64-v8a":  {
+                                        "url":  "https://github.com/einfall/vodi-releases/releases/download/v0.1.50-beta/iTV-v0.1.50-beta-arm64-v8a.apk",
+                                        "sha256":  "22e278730d9d92b0d5238471a228fd18a2ad235c44fa6140e1823eb7f8a69d51",
+                                        "size_bytes":  27030954
+                                    }
+                  }
 }
